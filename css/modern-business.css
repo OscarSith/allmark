@@ -85,6 +85,14 @@ header.carousel .fill {
     color: #0469D3;
     text-shadow: 1px -1px 1px #8E9BA9;
 }
+.modal-title {
+    color: #0469D3;
+    text-shadow: 1px -1px 1px #8E9BA9;
+}
+.mt20   {
+    margin-top: 25px;
+}
+
 .more-info {
     text-align: center;
     margin: 0 auto;
