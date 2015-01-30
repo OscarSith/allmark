@@ -27,9 +27,9 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#bs-example-navbar-collapse-1">
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -46,7 +46,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
+                    <li class="active">
                         <a href="#page-top" class="page-scroll">PRODUCTOS</a>
                     </li>
                     <li>
@@ -115,19 +115,17 @@
                 <div class="col-sm-6 col-md-3">
                     <div class="panel panel-default text-center">
                         <div class="panel-heading">
-                            <span class="fa-stack fa-5x">
-                                  <i class="fa fa-circle fa-stack-2x"></i>
+                            <span class="fa-stack" data-toggle="modal" data-target="#articulos">
                                   <i class="fa fa-pencil fa-stack-1x"></i>
                             </span>
                         </div>
                         <div class="panel-body">
-                            <h4>ARTICULOS DE ESCRITORIO</h4>
+                            <h5>ARTICULOS DE ESCRITORIO</h5>
                             <p>Todo en artículos de escritorio para su oficina o establecimiento con abastecimiento 24/7 en toda Lima Metropolitana.</p>
                             <div class="more-info">
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#articulos">
-                                  Leer más
+                                  <i class="fa fa-share"></i> Leer más
                                 </button>
-
                             </div>
                         </div>
                     </div>
@@ -135,17 +133,16 @@
                 <div class="col-sm-6 col-md-3">
                     <div class="panel panel-default text-center">
                         <div class="panel-heading">
-                            <span class="fa-stack fa-5x">
-                                  <i class="fa fa-circle fa-stack-2x"></i>
+                            <span class="fa-stack">
                                   <i class="fa fa-user fa-stack-1x"></i>
                             </span>
                         </div>
                         <div class="panel-body">
-                            <h4>PRODUCTOS DE ASEO, DESINFECTANTES Y ABARROTES EN GENERAL</h4>
+                            <h5>PRODUCTOS DE ASEO, DESINFECTANTES Y ABARROTES EN GENERAL</h5>
                             <p>Distribuimos diversas líneas en productos de aseo y desinfectantes e implementos para su cafetería.</p>
                             <div class="more-info">
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#aseo">
-                                  Leer más
+                                  <i class="fa fa-share"></i> Leer más
                                 </button>
                             </div>
                         </div>
@@ -154,17 +151,16 @@
                 <div class="col-sm-6 col-md-3">
                     <div class="panel panel-default text-center">
                         <div class="panel-heading">
-                            <span class="fa-stack fa-5x">
-                                  <i class="fa fa-circle fa-stack-2x"></i>
-                                  <i class="fa fa-support fa-stack-1x"></i>
+                            <span class="fa-stack" data-toggle="modal" data-target="#implementos">
+                                <i class="fa fa-support fa-stack-1x"></i>
                             </span>
                         </div>
                         <div class="panel-body">
-                            <h4>IMPLEMENTOS GENERALES DE SEGURIDAD</h4>
+                            <h5>IMPLEMENTOS GENERALES DE SEGURIDAD</h5>
                             <p>Pensando en su seguridad, allmark security ofrece una gama amplia en EPPs y artículos de seguridad.</p>
                             <div class="more-info">
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#implementos">
-                                  Leer más
+                                  <i class="fa fa-share"></i> Leer más
                                 </button>
                             </div>
                         </div>
@@ -173,17 +169,16 @@
                 <div class="col-sm-6 col-md-3">
                     <div class="panel panel-default text-center">
                         <div class="panel-heading">
-                            <span class="fa-stack fa-5x">
-                                  <i class="fa fa-circle fa-stack-2x"></i>
-                                  <i class="fa fa-wrench fa-stack-1x"></i>
+                            <span class="fa-stack" data-toggle="modal" data-target="#herramientas">
+                                <i class="fa fa-wrench fa-stack-1x"></i>
                             </span>
                         </div>
                         <div class="panel-body">
-                            <h4>HERRAMIENTAS Y MATERIALES DE CONSTRUCCION</h4>
+                            <h5>HERRAMIENTAS Y MATERIALES DE CONSTRUCCION</h5>
                             <p>Ponemos a su disposición el abastecimiento general de herramientas de producción nacional y extranjera, al igual que materiales de construcción para su proyecto.</p>
                             <div class="more-info">
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#herramientas">
-                                  Leer más
+                                    <i class="fa fa-share"></i> Leer más
                                 </button>
                             </div>
                         </div>
@@ -192,12 +187,12 @@
                 <div class="clearfix"></div>
             </div>
         </div>
-        <div class="row" id="about-us">
+        <div class="row text-justify" id="about-us">
             <div class="col-lg-12">
                 <div class="space-hold"></div>
                 <h2 class="page-header">NOSOTROS</h2>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-7">
                <h4 class="text-center">QUIENES SOMOS</h4>
                 <p>Allmark es un equipo multidisciplinario de profesionales que busca entregarle los mejores productos no estratégicos en la comodidad de su oficina o establecimiento, como artículos de escritorio, papelería en general, artículos de aseo, desfinfectantes, y productos de cafetería, buscando relaciones de largo plazo y sostenidos en nuestros cuatro objetivos de distribución tales como: Alta diversidad de productos, precio razonable, entregas a tiempo y disponibilidad total.</p>
                 <p>
@@ -210,38 +205,63 @@
                 </p>
                 <p>En asociación con Lima Courier Corporación SAC – <a href="http://www.limacourier.pe" target="blanck">www.limacourier.pe</a></p>
             </div>
-            <div class="col-sm-6">
-                <h4 class="text-center">OBJETIVOS</h4>
+            <div class="col-sm-5">
+                <h4>&nbsp;</h4>
+                <img src="img/items.png" alt="Quienes Somos 1" class="img-responsive">
+                <img src="img/dummy1.jpg" alt="Quienes Somos 2" class="img-responsive mt40">
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-sm-12">
+                <h4 class="page-header">OBJETIVOS</h4>
+            </div>
+            <div class="col-sm-3">
                 <p>
                     <b>Alta diversidad</b><br>
                     En allmark buscamos mantener una cartera de productos que cumpla las expectativas de nuestros clientes y sobrepase cualquier necesidad en su cadena de abastecimiento.
                 </p>
+            </div>
+            <div class="col-sm-3">
                 <p><b>Precio razonable</b><br>
                     Gracias a los vínculos generados con empresas de diversos rubros, buscamos que el cliente final obtenga los mejores precios, todo el año.
                 </p>
+            </div>
+            <div class="col-sm-3">
                 <p>
                     <b>Entregas a tiempo</b><br>
                     Nuestra prioridad siempre serán las necesidades de nuestros clientes, por ello fortalecemos nuestro servicio de delivery corporativo, cada vez mejor, con el único deseo de entregar a tiempo cualquier requerimiento en cualquier lugar de Lima Metropolitana.
                 </p>
+            </div>
+            <div class="col-sm-3">
                 <p>
                     <b>Disponibilidad total</b><br>
                     Con nuestro sistema 24/7, atendemos solicitudes y realizasmos entregas todos los días de la semana y en cualquier momento, su necesidad es nuestra prioridad.
                 </p>
             </div>
-            <div class="clearfix"></div>
         </div>
         <div id="contact-content">
             <div class="space-hold"></div>
             <h2 class="page-header">CONTÁCTENOS</h2>
             <div class="col-sm-7">
                 <address>
-                    En allmark valoramos las relaciones de largo plazo, contáctenos en forma directa en:<br><br>
-                    <i class="fa fa-fax"></i> 242-2534<br>
-                    <i class="fa fa-mobile-phone fa-lg"></i> RPM(#) 9881-63388
-                </address>
-                <address>
-                    <p>
-                        <a href="mailto:ventas@allmark.pe">ventas@allmark.pe</a> / <a href="mailto:info@allmark.pe">info@allmark.pe</a></p>
+                    En allmark valoramos las relaciones de largo plazo, contáctenos en forma directa en:
+                    <br><br>
+                    <ul class="list-unstyled">
+                        <li>
+                            <i class="fa fa-map-marker fa-2x"></i>
+                            <strong>Av. Sergio Bernales 524 Int. 1204 – Surquillo, Lima, Perú.</strong>
+                        </li>
+                        <li>&nbsp;</li>
+                        <li>
+                            <i class="fa fa-mobile-phone" style="font-size:1.9em"></i> <strong>RPM(#) 9881-63388</strong>
+                            &nbsp; <i class="fa fa-minus"></i> &nbsp;
+                            <strong class="warning"><i class="fa fa-fax fa-lg"></i> 242-2534</strong>
+                        </li>
+                        <li>&nbsp;</li>
+                        <li>
+                            <i class="fa fa-envelope fa-lg"></i>
+                            <a href="mailto:ventas@allmark.pe">ventas@allmark.pe</a> / <a href="mailto:info@allmark.pe">info@allmark.pe</a>
+                        </li>
+                    </ul>
                 </address>
                 <hr>
                 <img src="img/Contacto.jpg" alt="Imagen contacto" class="img-responsive">
