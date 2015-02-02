@@ -154,6 +154,15 @@ header.carousel .fill {
     color: inherit;
 }
 
+.clients {
+    margin-top: 40px;
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD
+}
+aside.clients img {
+    margin: 50px auto;
+}
+
 /* Footer Styles */
 
 footer {
