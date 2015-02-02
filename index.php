@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -245,7 +246,7 @@
                 <img src="img/Contacto.jpg" alt="Imagen contacto" class="img-responsive">
             </div>
             <div class="col-sm-5">
-                <form action="#" id="form-contact" novalidate>
+                <form action="send.php" id="form-contact" method="post">
                     <div class="control-group form-group">
                         <input type="text" id="nombre" name="nombre" placeholder="Nombre" required class="form-control" data-validation-required-message="Por favor introduzca su nombre y apellido">
                         <p class="help-block"></p>
@@ -274,7 +275,16 @@
                     <div class="form-group">
                         <button class="btn btn-warning">Enviar</button>
                     </div>
-                    <div id="success"></div>
+                    <?php if (isset($_SESSION['MESSAGE'])): ?>
+                        <div class="alert alert-success">
+                            <?php echo $_SESSION['MESSAGE'] ?>
+                        </div>
+                    <?php endif ?>
+                    <?php if (isset($_SESSION['ERROR_MESSAGE'])): ?>
+                    <div class="alert alert-danger">
+                        <?php echo $_SESSION['ERROR_MESSAGE'] ?>
+                    </div>
+                    <?php endif ?>
                 </form>
             </div>
             <div class="clearfix"></div>
@@ -283,7 +293,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; 2015 allmark sac, all rights reserved.</p>
+                    <p>Copyright &copy; <?php echo date('Y') ?> allmark sac, all rights reserved.</p>
                 </div>
             </div>
         </footer>
@@ -362,13 +372,12 @@ Contamos con las líneas de papelerìa, papel fotocopia, bond, papel bulky, peri
                 <h4 class="modal-title" id="myModalLabel">IMPLEMENTOS DE SEGURIDAD</h4>
               </div>
               <div class="modal-body">
-                
-                    <div class="col-sm-7">
-<p class="text-justify mt20">
-<strong> Buscamos que la seguridad se convierta en el factor común de cada organización,</strong> proporcionando los mejores productos de las mejores marcas, que ofrezcan EPPs de alta calidad y optimo desempeño, señalética, pisos de seguridad, (NOMAD y Confort), luces de emergencia, conos, cintas de seguridad, barras retràctiles y todo el equipamiento que sus colaboradores necesitan.</p>
-<P>               
-<div><img src="img/implementos_seguridad.png" alt="Imagen marcas" class="img-responsive center-block"></div></P>
-
+                <div class="col-sm-7">
+                    <p class="text-justify mt20">
+                    <strong> Buscamos que la seguridad se convierta en el factor común de cada organización,</strong> proporcionando los mejores productos de las mejores marcas, que ofrezcan EPPs de alta calidad y optimo desempeño, señalética, pisos de seguridad, (NOMAD y Confort), luces de emergencia, conos, cintas de seguridad, barras retràctiles y todo el equipamiento que sus colaboradores necesitan.</p>
+                    <p>
+                        <div><img src="img/implementos_seguridad.png" alt="Imagen marcas" class="img-responsive center-block"></div>
+                    </p>
                     </div> 
                     <div class="col-sm-5"><img src="img/obrero2.jpg" alt="Imagen seguridad" class="img-responsive center-block"></div> 
                   <div class="clearfix"></div>
@@ -384,17 +393,17 @@ Contamos con las líneas de papelerìa, papel fotocopia, bond, papel bulky, peri
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">TODO EN HERRAMIENTAS Y MATERIALES DE CONSTRUCCION
-</h4>
+                <h4 class="modal-title" id="myModalLabel">TODO EN HERRAMIENTAS Y MATERIALES DE CONSTRUCCION</h4>
               </div>
               <div class="modal-body">
-                
-                    <div class="col-sm-6"><img src="img/construccion.png" alt="Imagen herramientas" class="img-responsive"></div> 
                     <div class="col-sm-6">
-<p class="text-justify mt20">
-    "Con la unidad de negocios de herramientas y materiales de construcción, buscamos ser un aliado contìnuo para su proyecto asegurándole el suministro de herramientas y elementos de ferreterìa en su lugar de trabajo, y proporcionándole los materiales de construcción que su obra necesita.  Atendemos en obras civiles de todo tipo, alcantarillado, mecánica, estructural".</p>
-<p class="text-justify">
-Comèntenos sobre su proyecto, conozca nuestras opciones de crédito y condiciones especiales de entrega.</p>
+                        <img src="img/construccion.png" alt="Imagen herramientas" class="img-responsive">
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="text-justify mt20">
+                        "Con la unidad de negocios de herramientas y materiales de construcción, buscamos ser un aliado contìnuo para su proyecto asegurándole el suministro de herramientas y elementos de ferreterìa en su lugar de trabajo, y proporcionándole los materiales de construcción que su obra necesita.  Atendemos en obras civiles de todo tipo, alcantarillado, mecánica, estructural".</p>
+                        <p class="text-justify">
+                        Coméntenos sobre su proyecto, conozca nuestras opciones de crédito y condiciones especiales de entrega.</p>
                     </div> 
                   <div class="clearfix"></div>
               </div>

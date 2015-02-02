@@ -10,8 +10,7 @@ $("input,textarea").jqBootstrapValidation({
         // Not decided if I need it yet
     },
     submitSuccess: function($form, event) {
-        alert('Datos correctos')
-        event.preventDefault();
+        event.submit();
     },
     filter: function() {
         return $(this).is(":visible");
