@@ -58,10 +58,10 @@ if ($bHayFicheros)
 $sTexto .= $sAdjuntos."\n\n----_Separador-de-mensajes_----\n";
 
 $rpta = mail($sPara, $sAsunto,$sTexto, $sCabeceras);
-var_dump($rpta);
 if($rpta) {
 	$_SESSION['MESSAGE'] = 'Mensaje enviado satisfactoriamente';
 } else {
 	$_SESSION['ERROR_MESSAGE'] = 'Ups.. hubo un error al intentar enviar el mensaje, intentelo de nuevo.';
 }
-header('location: /');
+
+header('location: '.$_SERVER['HTTP_REFERER']);
