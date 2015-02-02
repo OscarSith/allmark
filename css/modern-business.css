@@ -85,6 +85,14 @@ header.carousel .fill {
     color: rgb(0,112,192);
     text-shadow: 1px -1px 1px #8E9BA9;
 }
+.modal-title {
+    color: #0469D3;
+    text-shadow: 1px -1px 1px #8E9BA9;
+}
+.mt20   {
+    margin-top: 25px;
+}
+
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     background-color: rgb(0,112,192);
     color: #fff
