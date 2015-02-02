@@ -1,3 +1,8 @@
+// Closes the Responsive Menu on Menu Item Click
+$('.navbar-collapse ul li a').click(function() {
+    $('.navbar-toggle:visible').click();
+});
+
 $("input,textarea").jqBootstrapValidation({
     preventSubmit: true,
     submitError: function($form, event, errors) {

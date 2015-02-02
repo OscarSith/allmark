@@ -120,10 +120,6 @@ header.carousel .fill {
     font-size: 1.1em;
 }
 
-#products .panel:hover h5 {
-    color: rgb(0,112,192);
-}
-
 #products .panel:hover {
     box-shadow: 0 0 15px #333;
     transition: 600ms;
@@ -136,6 +132,10 @@ header.carousel .fill {
 
 .mt40 {
     margin-top: 40px
+}
+
+.info-contact li {
+    margin-bottom: 6px
 }
 
 /* Footer Styles */
