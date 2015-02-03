@@ -11,9 +11,7 @@
 
     <title>Allmark</title>
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/modern-business.css" rel="stylesheet">
-    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -60,9 +58,8 @@
     </nav>
     <div class="container" id="page-top">
         <div class="row" id="products">
-            <div style="height:50px"></div>
             <div class="col-lg-12">
-                <h1 class="page-header"> Nuestros Productos</h1>
+                <h1 class="page-header fix-header"> Nuestros Productos</h1>
             </div>
             <div>
                 <div class="col-sm-6 col-md-3">
@@ -145,7 +142,7 @@
                 <div class="space-hold"></div>
                 <h2 class="page-header">NOSOTROS</h2>
             </div>
-            <div class="col-sm-7">
+            <div class="col-sm-8">
                <h4 class="text-center">QUIENES SOMOS</h4>
                 <p>Allmark es un equipo multidisciplinario de profesionales que busca entregarle los mejores productos no estratégicos en la comodidad de su oficina o establecimiento, como artículos de escritorio, papelería en general, artículos de aseo, desfinfectantes, y productos de cafetería, buscando relaciones de largo plazo y sostenidos en nuestros cuatro objetivos de distribución tales como: Alta diversidad de productos, precio razonable, entregas a tiempo y disponibilidad total.</p>
                 <p>
@@ -158,12 +155,12 @@
                 </p>
                 <p>En asociación con Lima Courier Corporación SAC – <a href="http://www.limacourier.pe" target="blanck">www.limacourier.pe</a></p>
             </div>
-            <div class="col-sm-5">
+            <div class="col-sm-4">
                 <img src="img/about-us.png" alt="Quienes Somos" class="img-responsive">
             </div>
             <div class="clearfix"></div>
             <div class="col-sm-12">
-                <h4 class="page-header">OBJETIVOS</h4>
+                <h4 class="page-header mt10">OBJETIVOS</h4>
             </div>
             <div class="col-sm-3">
                 <p>
@@ -293,7 +290,8 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; <?php echo date('Y') ?> allmark sac, all rights reserved.</p>
+                    <img src="img/logo_min.png" height="34" alt="Logo version Mobil" class="pull-left">
+                    <p class="pull-left">Copyright &copy; <?php echo date('Y') ?> allmark sac, all rights reserved.<br>En asociación con Lima Courier Corporación SAC - <a href="http://www.limacourier.pe" target="_blank">www.limacourier.pe</a></p>
                 </div>
             </div>
         </footer>

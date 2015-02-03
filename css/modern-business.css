@@ -6,17 +6,25 @@
 
 /* Global Styles */
 
+@import url(bootstrap.min.css);
+@import url(../font-awesome-4.1.0/css/font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Vollkorn);
+
 html,
 body {
     height: 100%;
 }
 
 body {
-    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: 'Vollkorn', serif;
 }
 
 .img-portfolio {
     margin-bottom: 30px;
+}
+
+.fix-header {
+    margin-top: 82px !important;
 }
 
 .img-hover:hover {
@@ -89,8 +97,15 @@ header.carousel .fill {
     color: #0469D3;
     text-shadow: 1px -1px 1px #8E9BA9;
 }
+.mt10 {
+    margin-top: 10px !important
+}
 .mt20   {
     margin-top: 25px;
+}
+
+footer p {
+    margin-left: 14px
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
