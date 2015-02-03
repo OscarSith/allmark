@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="description" content="Delivery dcorporativo de implementos de oficina">
     <meta name="author" content="Allmark">
     <meta name="keywords" content="allmark - Delivery, delivery corporativo, distribución, artículos de oficina, productos de oficina, productos de oficina en lima, distribuidora de artículos, distribuidora de artículos de oficina en lima, resmas, resmas de papel en lima, productos de oficina, productos de oficina en perú, artículos de oficina, artículos de oficina en perú, resmas de papel, resmas de papel en perú, papel continuo en lima, papel continuo en perú, artículos de aseo, lejía, detergente, jabón, jabón de manos, limpiador pino, artículos de cafetería, papel higiénico en lima, papel higiénico en perú, papel toalla, lejía, cloro, escoba, trapeador, bolígrafo, lapicero, lápiz, borrador, agua mineral, gaseosas, café, infusiones, azúcar, implementos de seguridad, cascos, chalecos, descartables, productos de oficina, productos de oficina en lima, distribuidora de artículos, distribuidora de artículos de oficina en lima, engrapador, perforador, regla, cúter, artesco, artículos de oficina artesco, faber castell, kw-trio, xerox, gallo copy, kero copy, pegafan, pilot, faber, 3m, warrior, atlas, fotocopia, papel fotocopia, pagoda, layconsa, norma">
