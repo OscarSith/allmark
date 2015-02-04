@@ -7,7 +7,7 @@
 /* Global Styles */
 
 @import url(bootstrap.min.css);
-@import url(../font-awesome-4.1.0/css/font-awesome.min.css);
+@import url(font-awesome.min.css);
 @import url(http://fonts.googleapis.com/css?family=Vollkorn);
 
 html,
@@ -82,7 +82,7 @@ header.carousel .fill {
     font-style: italic;
 }
 
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .fa-stack-2x{
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
     color: rgb(255, 192, 0);
 }
 .warning {
@@ -138,16 +138,19 @@ footer p {
     height: 50px
 }
 
-.fa-stack {
+.fa-stack-custom {
     font-size: 4.3em;
     margin-top: 10px;
     margin-bottom: 10px;
     cursor: pointer;
 }
-.fa-stack-1x {
+.fa-stack-1x-custom {
     background-color: rgb(255, 192, 0);
     border-radius: 50%;
     font-size: 1.1em;
+}
+.fa-facebook, .fa-linkedin, .fa-pinterest-p, .fa-twitter {
+    color: #fff
 }
 
 #products .panel:hover h5 {

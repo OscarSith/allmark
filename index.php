@@ -65,8 +65,8 @@
                 <div class="col-sm-6 col-md-3">
                     <div class="panel panel-default text-center">
                         <div class="panel-heading">
-                            <span class="fa-stack" data-toggle="modal" data-target="#articulos">
-                                  <i class="fa fa-pencil fa-stack-1x"></i>
+                            <span class="fa-stack fa-stack-custom" data-toggle="modal" data-target="#articulos">
+                                  <i class="fa fa-pencil fa-stack-1x fa-stack-1x-custom"></i>
                             </span>
                         </div>
                         <div class="panel-body">
@@ -83,8 +83,8 @@
                 <div class="col-sm-6 col-md-3">
                     <div class="panel panel-default text-center">
                         <div class="panel-heading">
-                            <span class="fa-stack" data-toggle="modal" data-target="#aseo">
-                                  <i class="fa fa-user fa-stack-1x"></i>
+                            <span class="fa-stack fa-stack-custom" data-toggle="modal" data-target="#aseo">
+                                  <i class="fa fa-user fa-stack-1x fa-stack-1x-custom"></i>
                             </span>
                         </div>
                         <div class="panel-body">
@@ -101,8 +101,8 @@
                 <div class="col-sm-6 col-md-3">
                     <div class="panel panel-default text-center">
                         <div class="panel-heading">
-                            <span class="fa-stack" data-toggle="modal" data-target="#implementos">
-                                <i class="fa fa-support fa-stack-1x"></i>
+                            <span class="fa-stack fa-stack-custom" data-toggle="modal" data-target="#implementos">
+                                <i class="fa fa-support fa-stack-1x fa-stack-1x-custom"></i>
                             </span>
                         </div>
                         <div class="panel-body">
@@ -119,8 +119,8 @@
                 <div class="col-sm-6 col-md-3">
                     <div class="panel panel-default text-center">
                         <div class="panel-heading">
-                            <span class="fa-stack" data-toggle="modal" data-target="#herramientas">
-                                <i class="fa fa-wrench fa-stack-1x"></i>
+                            <span class="fa-stack fa-stack-custom" data-toggle="modal" data-target="#herramientas">
+                                <i class="fa fa-wrench fa-stack-1x fa-stack-1x-custom"></i>
                             </span>
                         </div>
                         <div class="panel-body">
@@ -276,11 +276,13 @@
                     <?php if (isset($_SESSION['MESSAGE'])): ?>
                         <div class="alert alert-success">
                             <?php echo $_SESSION['MESSAGE'] ?>
+                            <?php unset($_SESSION['MESSAGE']) ?>
                         </div>
                     <?php endif ?>
                     <?php if (isset($_SESSION['ERROR_MESSAGE'])): ?>
                     <div class="alert alert-danger">
                         <?php echo $_SESSION['ERROR_MESSAGE'] ?>
+                        <?php unset($_SESSION['ERROR_MESSAGE']) ?>
                     </div>
                     <?php endif ?>
                 </form>
@@ -290,9 +292,27 @@
         <hr>
         <footer>
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-sm-9">
                     <img src="img/logo_min.png" height="34" alt="Logo version Mobil" class="pull-left">
                     <p class="pull-left">Copyright &copy; <?php echo date('Y') ?> allmark sac, all rights reserved.<br>En asociación con Lima Courier Corporación SAC - <a href="http://www.limacourier.pe" target="_blank">www.limacourier.pe</a></p>
+                </div>
+                <div class="col-sm-3">
+                    <a class="fa-stack fa-lg" href="#">
+                        <i class="fa fa-square fa-stack-2x"></i>
+                        <i class="fa fa-facebook fa-stack-1x"></i>
+                    </a>
+                    <a class="fa-stack fa-lg" href="https://www.linkedin.com/company/allmark-sac" target="_blank">
+                        <i class="fa fa-square fa-stack-2x"></i>
+                        <i class="fa fa-linkedin fa-stack-1x"></i>
+                    </a>
+                    <a class="fa-stack fa-lg" href="#">
+                        <i class="fa fa-square fa-stack-2x"></i>
+                        <i class="fa fa-pinterest-p fa-stack-1x"></i>
+                    </a>
+                    <a class="fa-stack fa-lg" href="#">
+                        <i class="fa fa-square fa-stack-2x"></i>
+                        <i class="fa fa-twitter fa-stack-1x"></i>
+                    </a>
                 </div>
             </div>
         </footer>
@@ -322,7 +342,6 @@
                 <h4 class="modal-title" id="myModalLabel">ARTICULOS DE ESCRITORIO</h4>
               </div>
               <div class="modal-body">
-                
                     <div class="col-sm-6">
 <p class="text-justify mt20">
 Ofrecemos una amplia gama de artículos de escritorio, con una cartera de màs de 650 productos de diversas marcas todas ellas representativas en el mercado peruano.
@@ -344,10 +363,10 @@ Contamos con las líneas de papelerìa, papel fotocopia, bond, papel bulky, peri
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">PRODUCTOS DE ASEO, DESINFECTANTES, Y ABARROTES EN GENERAL
-</h4>
+                <h4 class="modal-title" id="myModalLabel">PRODUCTOS DE ASEO, DESINFECTANTES, Y ABARROTES EN GENERAL</h4>
               </div>
-              <div class="modal-body">                    <div class="col-sm-6"> <img src="img/productos_aseo.png" alt="Imagen productos de aseo" class="img-responsive"></div> 
+              <div class="modal-body">
+                <div class="col-sm-6"> <img src="img/productos_aseo.png" alt="Imagen productos de aseo" class="img-responsive"></div> 
                     <div class="col-sm-6">
 <p class="text-justify mt20"><strong>"Creemos que es fundamental un abastecimiento integral para su empresa,</strong> por ello hemos ampliado la distribución considerando agregar a nuestra cartera los productos de aseo y desinfectantes para ambientes, pisos, cocinas y cualquier lugar en general con marcas que garantizan protección para sus empleados y sus espacios".</p>
 
