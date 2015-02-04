@@ -186,27 +186,27 @@
                 </p>
             </div>
         </div>
-        <div class="clientes">  <p> ALGUNOS DE NUESTROS CLIENTES</p></div>
+        <div class="clientes">  <p>ALGUNOS DE NUESTROS CLIENTES</p></div>
         <aside class="clients"> 
             <div class="row"> 
                 <div class="col-md-3 col-sm-6">
                     <a href="#">
-                        <img src="img/clients/envato.jpg" class="img-responsive img-centered" alt="">
+                        <img src="img/clients/taca.png" class="img-responsive img-centered" alt="">
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <a href="#">
-                        <img src="img/clients/designmodo.jpg" class="img-responsive img-centered" alt="">
+                        <img src="img/clients/red_salud.png" class="img-responsive img-centered" alt="">
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <a href="#">
-                        <img src="img/clients/themeforest.jpg" class="img-responsive img-centered" alt="">
+                        <img src="img/clients/sedapal.png" class="img-responsive img-centered" alt="">
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-6">
                     <a href="#">
-                        <img src="img/clients/creative-market.jpg" class="img-responsive img-centered" alt="">
+                        <img src="img/clients/avianca.png" class="img-responsive img-centered" alt="">
                     </a>
                 </div>
             </div>
