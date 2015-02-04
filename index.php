@@ -186,8 +186,9 @@
                 </p>
             </div>
         </div>
-        <aside class="clients">
-            <div class="row">
+        <div class="clientes">  <p> ALGUNOS DE NUESTROS CLIENTES</p></div>
+        <aside class="clients"> 
+            <div class="row"> 
                 <div class="col-md-3 col-sm-6">
                     <a href="#">
                         <img src="img/clients/envato.jpg" class="img-responsive img-centered" alt="">

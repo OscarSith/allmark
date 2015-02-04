@@ -103,6 +103,13 @@ header.carousel .fill {
 .mt20   {
     margin-top: 25px;
 }
+.clientes {
+    margin-top: 40px;
+    color: rgb(128,128,128);
+    text-shadow: 1px -1px 1px #dddddd;
+    padding: 10px;
+    
+}
 
 footer p {
     margin-left: 14px
@@ -112,7 +119,7 @@ footer p {
     background-color: rgb(0,112,192);
     color: #fff
 }
-.more-info {
+.more-ino {
     text-align: center;
     margin: 0 auto;
     height: 35px;
@@ -170,7 +177,7 @@ footer p {
 }
 
 .clients {
-    margin-top: 40px;
+/*    margin-top: 40px; */
     border-top: 1px solid #DDD;
     border-bottom: 1px solid #DDD
 }
