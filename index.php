@@ -11,7 +11,11 @@
 
     <title>Allmark</title>
 
-    <link href="css/modern-business.css" rel="stylesheet">
+    <!-- Producción -->
+    <link href="css/main.min.css" rel="stylesheet">
+
+    <!-- Solo Para desarrollo
+    <link href="css/modern-business.css" rel="stylesheet"> -->
 
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -186,29 +190,20 @@
                 </p>
             </div>
         </div>
-        <div class="clientes">  <p>ALGUNOS DE NUESTROS CLIENTES</p></div>
-        <aside class="clients"> 
-            <div class="row"> 
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/clients/taca.png" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/clients/red_salud.png" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/clients/sedapal.png" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/clients/avianca.png" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
+        <div class="clientes">
+            <p>ALGUNOS DE NUESTROS CLIENTES</p>
+        </div>
+        <aside class="clients">
+            <div class="slider autoplay">
+                <div><img src="img/clients/taca.png" class="img-responsive img-centered" alt="Taca"></div>
+                <div><img src="img/clients/red_salud.png" class="img-responsive img-centered" alt="Red Salud"></div>
+                <div><img src="img/clients/sedapal.png" class="img-responsive img-centered" alt="Sedapal"></div>
+                <div><img src="img/clients/avianca.png" class="img-responsive img-centered" alt="Avianca"></div>
+                <div><img data-lazy="img/clients/ibero.png" class="img-responsive img-centered" alt="ibero"></div>
+                <div><img data-lazy="img/clients/metco.png" class="img-responsive img-centered" alt="Metco"></div>
+                <div><img data-lazy="img/clients/soluciones_ali.png" class="img-responsive img-centered" alt="Soluciones ali"></div>
+                <div><img data-lazy="img/clients/uvk.png" class="img-responsive img-centered" alt="Cines UVK"></div>
+                <div><img data-lazy="img/clients/ctsi.png" class="img-responsive img-centered" alt="CTSI"></div>
             </div>
         </aside>
         <div id="contact-content">
@@ -218,24 +213,29 @@
                 <address>
                     En allmark valoramos las relaciones de largo plazo, contáctenos en forma directa a nuestro call center.
                     <br><br>
-                    <ul class="info-contact">
+                    <ul class="fa-ul info-contact">
                         <li>
+                            <i class="fa-li fa fa-check-square text-muted"></i>
                             <strong class="text-primary"><i class="fa fa-fax fa-lg"></i> 51 1 242 2534</strong>
                         </li>
                         <li>
+                            <i class="fa-li fa fa-check-square text-muted"></i>
                             <i class="fa fa-mobile-phone" style="font-size:1.9em"></i>
                             51 9881 63388 - RPM (#) 9881 63388
                         </li>
                         <li>
+                            <i class="fa-li fa fa-check-square text-muted"></i>
                             <i class="fa fa-envelope fa-lg"></i>
                             <a href="mailto:ventas@allmark.pe">ventas@allmark.pe</a>
                         </li>
                         <li>
+                            <i class="fa-li fa fa-check-square text-muted"></i>
                             <i class="fa fa-envelope fa-lg"></i>
                             <a href="mailto:info@allmark.pe">info@allmark.pe</a>
                         </li>
                         <li>
-                            <i class="fa fa-map-marker fa-2x"></i>
+                            <i class="fa-li fa fa-check-square text-muted"></i>
+                            <i class="fa fa-map-marker"></i>
                             Av. Sergio Bernales 524 Int. 1204 – Surquillo, Lima, Perú.
                         </li>
                     </ul>
@@ -431,10 +431,8 @@ Contamos con las líneas de papelerìa, papel fotocopia, bond, papel bulky, peri
             </div>
           </div>
         </div>
-    <script src="js/jquery-1.11.0.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.js"></script>
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script> 
+    <!-- Solo para desarrollo -->
+    <!--<script src="node_modules/grunt-contrib-requirejs/node_modules/requirejs/require.js" data-main="js/main"></script>-->
+    <script src="js/app.min.js"></script>
 </body>
 </html>

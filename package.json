@@ -1,0 +1,25 @@
+{
+  "name": "allmark",
+  "version": "0.1.1",
+  "description": "Página web de Allmark  Perú",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/OscarSith/allmark.git"
+  },
+  "author": "Oscar Larriega",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OscarSith/allmark/issues"
+  },
+  "homepage": "https://github.com/OscarSith/allmark",
+  "devDependencies": {
+    "grunt-cli": "^0.1.13",
+    "grunt": "^0.4.5",
+    "grunt-contrib-requirejs": "^0.4.4",
+    "grunt-contrib-cssmin": "^0.11.0"
+  }
+}
