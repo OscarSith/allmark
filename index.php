@@ -365,55 +365,57 @@ Contamos con las líneas de papelerìa, papel fotocopia, bond, papel bulky, peri
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 <h4 class="modal-title" id="myModalLabel">PRODUCTOS DE ASEO, DESINFECTANTES, Y ABARROTES EN GENERAL</h4>
               </div>
-              <div class="modal-body">
-                <div class="col-sm-6"> <img src="img/productos_aseo.png" alt="Imagen productos de aseo" class="img-responsive"></div> 
-                    <div class="col-sm-6">
-<p class="text-justify mt20"><strong>"Creemos que es fundamental un abastecimiento integral para su empresa,</strong> por ello hemos ampliado la distribución considerando agregar a nuestra cartera los productos de aseo y desinfectantes para ambientes, pisos, cocinas y cualquier lugar en general con marcas que garantizan protección para sus empleados y sus espacios".</p>
+            <div class="modal-body">
+            <div class="col-sm-6"> <img src="img/productos_aseo.png" alt="Imagen productos de aseo" class="img-responsive"></div> 
+                <div class="col-sm-6">
+            <p class="text-justify mt20"><strong>"Creemos que es fundamental un abastecimiento integral para su empresa,</strong> por ello hemos ampliado la distribución considerando agregar a nuestra cartera los productos de aseo y desinfectantes para ambientes, pisos, cocinas y cualquier lugar en general con marcas que garantizan protección para sus empleados y sus espacios".</p>
 
-<p class="text-justify">Comercializamos marcas como Elite, 3M, Kimberly Clark, y Sapolio en líneas como detergente en polvo, lavavajilla, jabón liquido, lejìa, además de escobas, trapeadores, y recogedores.</p>
+            <p class="text-justify">Comercializamos marcas como Elite, 3M, Kimberly Clark, y Sapolio en líneas como detergente en polvo, lavavajilla, jabón liquido, lejìa, además de escobas, trapeadores, y recogedores.</p>
 
-<p class="text-justify">Asimismo, proporcionamos soluciones en la línea de cafeterìa ofreciéndole productos como azúcar rubia, café instantáneo, filtrantes, descartables, agua, bebidas gasificadas.</p>
-                    </div> 
-                  <div class="clearfix"></div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-              </div>
+            <p class="text-justify">Asimismo, proporcionamos soluciones en la línea de cafeterìa ofreciéndole productos como azúcar rubia, café instantáneo, filtrantes, descartables, agua, bebidas gasificadas.</p>
+                </div> 
+              <div class="clearfix"></div>
             </div>
-          </div>
-        </div>
-        <div class="modal fade" id="implementos" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">IMPLEMENTOS DE SEGURIDAD</h4>
-              </div>
-              <div class="modal-body">
-                <div class="col-sm-7">
-                    <p class="text-justify mt20">
-                    <strong> Buscamos que la seguridad se convierta en el factor común de cada organización,</strong> proporcionando los mejores productos de las mejores marcas, que ofrezcan EPPs de alta calidad y optimo desempeño, señalética, pisos de seguridad, (NOMAD y Confort), luces de emergencia, conos, cintas de seguridad, barras retràctiles y todo el equipamiento que sus colaboradores necesitan.</p>
-                    <p>
-                        <div><img src="img/implementos_seguridad.png" alt="Imagen marcas" class="img-responsive center-block"></div>
-                    </p>
-                    </div> 
-                    <div class="col-sm-5"><img src="img/obrero2.jpg" alt="Imagen seguridad" class="img-responsive center-block"></div> 
-                  <div class="clearfix"></div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-              </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="modal fade" id="herramientas" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-lg">
+    </div>
+    <div class="modal fade" id="implementos" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
             <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">TODO EN HERRAMIENTAS Y MATERIALES DE CONSTRUCCION</h4>
-              </div>
-              <div class="modal-body">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">IMPLEMENTOS DE SEGURIDAD</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="col-sm-7">
+                        <p class="text-justify mt20">
+                        <strong> Buscamos que la seguridad se convierta en el factor común de cada organización,</strong> proporcionando los mejores productos de las mejores marcas, que ofrezcan EPPs de alta calidad y optimo desempeño, señalética, pisos de seguridad, (NOMAD y Confort), luces de emergencia, conos, cintas de seguridad, barras retràctiles y todo el equipamiento que sus colaboradores necesitan.</p>
+                        <p>
+                            <div><img src="img/implementos_seguridad.png" alt="Imagen marcas" class="img-responsive center-block"></div>
+                        </p>
+                    </div> 
+                    <div class="col-sm-5">
+                        <img src="img/obrero2.jpg" alt="Imagen seguridad" class="img-responsive center-block">
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="herramientas" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">TODO EN HERRAMIENTAS Y MATERIALES DE CONSTRUCCION</h4>
+                </div>
+                <div class="modal-body">
                     <div class="col-sm-6">
                         <img src="img/construccion.png" alt="Imagen herramientas" class="img-responsive">
                     </div>
@@ -423,14 +425,14 @@ Contamos con las líneas de papelerìa, papel fotocopia, bond, papel bulky, peri
                         <p class="text-justify">
                         Coméntenos sobre su proyecto, conozca nuestras opciones de crédito y condiciones especiales de entrega.</p>
                     </div> 
-                  <div class="clearfix"></div>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
-              </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                </div>
             </div>
-          </div>
         </div>
+    </div>
     <!-- Solo para desarrollo -->
     <!--<script src="node_modules/grunt-contrib-requirejs/node_modules/requirejs/require.js" data-main="js/main"></script>-->
     <script src="js/app.min.js"></script>
