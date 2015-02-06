@@ -5,8 +5,7 @@ define(['bootstrapValidation'], function(jqBootstrapValidation) {
             // something to have when submit produces an error ?
             // Not decided if I need it yet
         },
-        submitSuccess: function($form, event) {
-            event.submit();
+        submitSuccess: function($form) {
         },
         filter: function() {
             return $(this).is(":visible");

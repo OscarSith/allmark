@@ -244,7 +244,7 @@
                 <img src="img/Contacto.jpg" alt="Imagen contacto" class="img-responsive">
             </div>
             <div class="col-sm-5">
-                <form action="send.php" id="form-contact" method="post">
+                <form action="send.php" id="form-contact" method="post" enctype="multipart/form-data">
                     <div class="control-group form-group">
                         <input type="text" id="nombre" name="nombre" placeholder="Nombre" required class="form-control" data-validation-required-message="Por favor introduzca su nombre y apellido">
                         <p class="help-block"></p>
