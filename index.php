@@ -88,7 +88,7 @@
                     <div class="panel panel-default text-center">
                         <div class="panel-heading">
                             <span class="fa-stack fa-stack-custom" data-toggle="modal" data-target="#aseo">
-                                  <i class="fa fa-user fa-stack-1x fa-stack-1x-custom"></i>
+                                  <i class="fa fa-archive fa-stack-1x fa-stack-1x-custom" style="font-size:1em"></i>
                             </span>
                         </div>
                         <div class="panel-body">
